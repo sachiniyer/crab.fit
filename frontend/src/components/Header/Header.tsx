@@ -61,7 +61,9 @@ const Header = async ({ isFull, isSmall }: HeaderProps) => {
               width={512}
               alt=""
             />
-            <span className={makeClass(styles.title, molot.className)}></span>
+            <span className={makeClass(styles.title, molot.className)}>
+              {"Meeting"}
+            </span>
           </div>
           <span className={styles.tagline}>{t("common:tagline")}</span>
         </Link>
